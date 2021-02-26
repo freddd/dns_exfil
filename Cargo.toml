@@ -1,0 +1,8 @@
+[package]
+name = "dns_exfil"
+version = "0.1.0"
+authors = ["freddd"]
+edition = "2018"
+
+[dependencies]
+dns-parser = "0.8.0"
