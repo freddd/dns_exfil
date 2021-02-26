@@ -2,7 +2,7 @@ use std::net::UdpSocket;
 
 use dns_parser::Packet;
 
-fn main() -> std::io::Result<()>{
+fn main() -> std::io::Result<()> {
     let bind_addr = "0.0.0.0:53";
 
     let socket = UdpSocket::bind(bind_addr)?;
